@@ -5,23 +5,29 @@ class Document
 	private String content;
 	private int id;
 
-	public void setName();
+	public void setName(String name)
 	{
+		this.name = name;
 	}
-	public void setContent();
+	public void setContent(String content)
 	{
+		this.content = content;
 	}
-	public void setExtension();
+	public void setExtension(String extension)
 	{
+		this.extension = extension;
 	}
-	public String getName();
+	public String getName()
 	{
+		return name;
 	}
-	public String getContent();
+	public String getContent()
 	{
+		return content;
 	}
-	public String getExtension();
+	public String getExtension()
 	{
+		return extension;
 	}
 
 }
